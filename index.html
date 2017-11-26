@@ -5,6 +5,7 @@
         body {
             padding: 0;
             margin: 0;
+            font-family: Microsoft YaHei, sans-serif;
         }
         .menu {
             width: 960px;
@@ -14,7 +15,7 @@
             height: 50px;
             line-height: 50px;
             font-size: 14px;
-            color: #ccc;
+            color: #aaa;
             font-weight: 800;
         }
         .menu-item {
@@ -37,6 +38,10 @@
             line-height: 100px;
             font-weight: bold;
         }
+        .normal-href {
+            color: black;
+            text-decoration: none;
+        }
 
         .recent {
             width: 960px;
@@ -52,6 +57,7 @@
             padding: 20px;
             box-shadow: rgba(0, 0, 0, 0.2) 0 8px 16px 0;
             color: white;
+            cursor: pointer;
         }
         .horizontal-item {
             flex: 2;
@@ -62,7 +68,7 @@
         }
         .item-category {
             font-size: 13px;
-            color: #ccc;
+            color: #efefef;
         }
         .item-title {
             font-size: 20px;
@@ -92,24 +98,24 @@
     <div class="menu-item">算法</div>
 </div>
 <div class="content">
-    <div class="title">Welcome Xieisabug's Blog</div>
+    <div class="title"><a href="./index.html" class="normal-href">Welcome Xieisabug's Blog</a></div>
 
     <div class="recent">
         <div class="row">
             <div class="horizontal-item"
-                 style="background-image: linear-gradient(to right, red, orange); background: red; background: linear-gradient(to right, red, orange);">
+                 style="background-image: linear-gradient(to right, rgb(115, 172, 168), rgb(210, 224, 224)); background: red; background: linear-gradient(to right, rgb(115, 172, 168), rgb(210, 224, 224));">
                 <div class="item-category">前端</div>
                 <div class="item-title">如何搭建一个静态的博客</div>
                 <img src="./page.png" alt="page" class="item-image">
             </div>
             <div class="vertical-item"
-                 style="background-image: linear-gradient(red, orange); background: red; background: linear-gradient(red, orange);">
+                 style="background-image: linear-gradient(rgb(22, 35, 48), rgb(21, 37, 49)); background: red; background: linear-gradient(rgb(22, 35, 48), rgb(21, 37, 49));">
                 <div class="item-category">前端</div>
                 <div class="item-title">如何搭建一个静态的博客</div>
                 <img src="./page.png" alt="page" class="item-image">
             </div>
             <div class="vertical-item"
-                 style="background-image: linear-gradient(red, orange); background: red; background: linear-gradient(red, orange);">
+                 style="background-image: linear-gradient(rgb(105, 192, 251), rgb(223, 241, 249)); background: red; background: linear-gradient(rgb(105, 192, 251), rgb(223, 241, 249));">
                 <div class="item-category">前端</div>
                 <div class="item-title">如何搭建一个静态的博客</div>
                 <img src="./page.png" alt="page" class="item-image">
@@ -118,23 +124,24 @@
 
         <div class="row">
             <div class="vertical-item"
-                 style="background-image: linear-gradient(red, orange); background: red; background: linear-gradient(red, orange);">
+                 style="background-image: linear-gradient(rgb(105, 192, 251), rgb(223, 241, 249)); background: red; background: linear-gradient(rgb(105, 192, 251), rgb(223, 241, 249));">
                 <div class="item-category">前端</div>
                 <div class="item-title">如何搭建一个静态的博客</div>
-                <img src="" alt="">
+                <img src="./page.png" alt="page" class="item-image">
             </div>
             <div class="vertical-item"
-                 style="background-image: linear-gradient(red, orange); background: red; background: linear-gradient(red, orange);">
+                 style="background-image: linear-gradient(rgb(22, 35, 48), rgb(21, 37, 49)); background: red; background: linear-gradient(rgb(22, 35, 48), rgb(21, 37, 49));">
                 <div class="item-category">前端</div>
                 <div class="item-title">如何搭建一个静态的博客</div>
-                <img src="" alt="">
+                <img src="./page.png" alt="page" class="item-image">
             </div>
             <div class="horizontal-item"
-                 style="background-image: linear-gradient(to right, red, orange); background: red; background: linear-gradient(to right, red, orange);">
+                 style="background-image: linear-gradient(to right, rgb(115, 172, 168), rgb(210, 224, 224)); background: red; background: linear-gradient(to right, rgb(115, 172, 168), rgb(210, 224, 224));">
                 <div class="item-category">前端</div>
                 <div class="item-title">如何搭建一个静态的博客</div>
-                <img src="" alt="">
+                <img src="./page.png" alt="page" class="item-image">
             </div>
+
         </div>
 
     </div>
