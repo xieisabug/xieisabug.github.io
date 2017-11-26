@@ -1,8 +1,143 @@
 <html>
-    <head>
+<head>
+    <meta charset="UTF-8"/>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        .menu {
+            width: 960px;
+            display: flex;
+            margin: 0 auto;
+            justify-content: space-around;
+            height: 50px;
+            line-height: 50px;
+            font-size: 14px;
+            color: #ccc;
+            font-weight: 800;
+        }
+        .menu-item {
+            cursor: pointer;
+        }
+        .menu-item:hover {
+            color: black;
+        }
+        .menu-item.active {
+            color: black;
+        }
+        .content {
+            border-top: 1px solid #ccc;
+        }
+        .title {
+            width: 960px;
+            margin: 0 auto;
+            font-size: 28px;
+            height: 100px;
+            line-height: 100px;
+            font-weight: bold;
+        }
 
-    </head>
-    <body>
-        <h1>Welcome Xieisabug's Blog</h1>
-    </body>
+        .recent {
+            width: 960px;
+            margin: 0 auto;
+        }
+        .row {
+            display: flex;
+        }
+        .horizontal-item, .vertical-item {
+            height: 225px;
+            margin: 10px;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: rgba(0, 0, 0, 0.2) 0 8px 16px 0;
+            color: white;
+        }
+        .horizontal-item {
+            flex: 2;
+        }
+        .vertical-item {
+            flex: 1;
+            position: relative;
+        }
+        .item-category {
+            font-size: 13px;
+            color: #ccc;
+        }
+        .item-title {
+            font-size: 20px;
+            font-weight: bolder;
+            margin-top: 5px;
+        }
+        .horizontal-item .item-image {
+            width: 120px;
+            float: right;
+            margin-right: 40px;
+        }
+        .horizontal-item .item-title {
+            width: 45%;
+        }
+        .vertical-item .item-image {
+            position: absolute;
+            bottom: 0;
+            width: 70%;
+        }
+    </style>
+</head>
+<body>
+<div class="menu">
+    <div class="menu-item">前端</div>
+    <div class="menu-item">后端</div>
+    <div class="menu-item">阅读书单</div>
+    <div class="menu-item">算法</div>
+</div>
+<div class="content">
+    <div class="title">Welcome Xieisabug's Blog</div>
+
+    <div class="recent">
+        <div class="row">
+            <div class="horizontal-item"
+                 style="background-image: linear-gradient(to right, red, orange); background: red; background: linear-gradient(to right, red, orange);">
+                <div class="item-category">前端</div>
+                <div class="item-title">如何搭建一个静态的博客</div>
+                <img src="./page.png" alt="page" class="item-image">
+            </div>
+            <div class="vertical-item"
+                 style="background-image: linear-gradient(red, orange); background: red; background: linear-gradient(red, orange);">
+                <div class="item-category">前端</div>
+                <div class="item-title">如何搭建一个静态的博客</div>
+                <img src="./page.png" alt="page" class="item-image">
+            </div>
+            <div class="vertical-item"
+                 style="background-image: linear-gradient(red, orange); background: red; background: linear-gradient(red, orange);">
+                <div class="item-category">前端</div>
+                <div class="item-title">如何搭建一个静态的博客</div>
+                <img src="./page.png" alt="page" class="item-image">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="vertical-item"
+                 style="background-image: linear-gradient(red, orange); background: red; background: linear-gradient(red, orange);">
+                <div class="item-category">前端</div>
+                <div class="item-title">如何搭建一个静态的博客</div>
+                <img src="" alt="">
+            </div>
+            <div class="vertical-item"
+                 style="background-image: linear-gradient(red, orange); background: red; background: linear-gradient(red, orange);">
+                <div class="item-category">前端</div>
+                <div class="item-title">如何搭建一个静态的博客</div>
+                <img src="" alt="">
+            </div>
+            <div class="horizontal-item"
+                 style="background-image: linear-gradient(to right, red, orange); background: red; background: linear-gradient(to right, red, orange);">
+                <div class="item-category">前端</div>
+                <div class="item-title">如何搭建一个静态的博客</div>
+                <img src="" alt="">
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
 </html>
