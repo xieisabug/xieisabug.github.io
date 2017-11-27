@@ -12,7 +12,7 @@ body {
     line-height: 50px;
     font-size: 14px;
     color: #aaa;
-    font-weight: 800;
+    font-weight: 200;
 }
 .menu-item {
     cursor: pointer;
@@ -24,7 +24,6 @@ body {
     color: black;
 }
 .content {
-    border-top: 1px solid #ccc;
 }
 .title {
     width: 960px;
