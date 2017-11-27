@@ -1,0 +1,85 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Microsoft YaHei, sans-serif;
+}
+.menu {
+    width: 960px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    color: #aaa;
+    font-weight: 800;
+}
+.menu-item {
+    cursor: pointer;
+}
+.menu-item:hover {
+    color: black;
+}
+.menu-item.active {
+    color: black;
+}
+.content {
+    border-top: 1px solid #ccc;
+}
+.title {
+    width: 960px;
+    margin: 0 auto;
+    font-size: 28px;
+    height: 100px;
+    line-height: 100px;
+    font-weight: bold;
+}
+.normal-href {
+    color: black;
+    text-decoration: none;
+}
+
+.recent {
+    width: 960px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+}
+.horizontal-item, .vertical-item {
+    height: 225px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 8px 16px 0;
+    color: white;
+    cursor: pointer;
+}
+.horizontal-item {
+    flex: 2;
+}
+.vertical-item {
+    flex: 1;
+    position: relative;
+}
+.item-category {
+    font-size: 13px;
+    color: #efefef;
+}
+.item-title {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+.horizontal-item .item-image {
+    width: 120px;
+    float: right;
+    margin-right: 40px;
+}
+.horizontal-item .item-title {
+    width: 45%;
+}
+.vertical-item .item-image {
+    position: absolute;
+    bottom: 0;
+    width: 70%;
+}
