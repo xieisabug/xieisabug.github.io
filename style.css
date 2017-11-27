@@ -52,7 +52,7 @@ body {
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.2) 0 8px 16px 0;
     color: white;
-    cursor: pointer;
+    text-decoration: none;
 }
 .horizontal-item {
     flex: 2;
@@ -82,4 +82,39 @@ body {
     position: absolute;
     bottom: 0;
     width: 70%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.article-view-time {
+    margin-top: 100px;
+    font-size: 13px;
+    color: #ccc;
+    font-weight: 100;
+}
+
+.article-view-title {
+    font-size: 40px;
+    font-weight: 500;
+    width: 960px;
+    margin: 50px auto;
+}
+
+.article-view-subtitle {
+    width: 960px;
+    margin: 0 auto;
+    font-size: 15px;
+    color: #ccc;
+}
+
+.article-view-author {
+    margin-top: 50px;
+    color: #888;
+}
+
+.article-view-content {
+    width: 900px;
+    margin: 150px auto;
 }
